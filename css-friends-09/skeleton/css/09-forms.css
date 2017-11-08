@@ -1,0 +1,80 @@
+/* PHASE 9: Forms */
+.content-main {
+}
+.thumb {
+float: left;
+margin-right: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  min-height: 300px;
+  /*//align-items: center;*/
+  width: 500px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+/*.input li {
+  list-style: none;
+}*/
+
+.input {
+  display: block;
+  width: 100%;
+  padding-left: 25px;
+}
+/*.form li {
+  display: block;
+}*/
+
+.input label{
+  display: block;
+  padding-top: 15px;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.input input{
+  display: block;
+  border: 1px solid #ccc;
+  width: 86.5%;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: white;
+}
+
+#bodyinput {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.submit {
+  display: block;
+  padding: 20px 25px;
+}
+
+.submit{
+  margin-right: 10px;
+}
+
+.submit p {
+  display: inline;
+  margin: 0px 4px;
+}
+
+.post {
+  background-color: #0c0;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 0 #070;
+  font-weight: bold;
+}
+
+.cancel {
+  font-weight: bold;
+
+}
